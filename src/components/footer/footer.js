@@ -1,5 +1,8 @@
 import React from 'react';
-import logo from '../img/LOGO SIDOPLASMA.png';
+import logo from '../img/UB.png';
+import UT from '../img/UT.png';
+import Sidoplasma from '../img/LOGO SIDOPLASMA.png';
+import Gmail from '../img/Gmail.png';
 import './footer.css'
 
 const Footer = () => {
@@ -8,57 +11,59 @@ const Footer = () => {
 
 			<div class="footer-left">
 
-				<h3>Company<span>logo</span></h3>
+				<h3><span></span></h3>
+				<img src={Sidoplasma} alt="sidoplasma" width="210" height="50"></img>
 
 				<p class="footer-links">
-					<a href="#" class="link-1">Home</a>
+					<a href="#" class="link-1" >Home</a>
 					
-					<a href="#">Blog</a>
+					<a href="#">SignIn</a>
 				
-					<a href="#">Pricing</a>
+					<a href="#">SignUp</a>
 				
-					<a href="#">About</a>
-					
-					<a href="#">Faq</a>
-					
 					<a href="#">Contact</a>
+					
 				</p>
 
-				<p class="footer-company-name">Company Name © 2015</p>
+				<p class="footer-company-name">SIDOPLASMA ©2021</p>
 			</div>
 
 			<div class="footer-center">
 
 				<div>
 					<i class="fa fa-map-marker"></i>
-					<p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+					<h6><span><strong>Created By</strong></span></h6>
+					<img src={logo} alt="UB" width="40" height="40"></img>
+					<h6><span><strong>Supported By</strong></span></h6>
+					<img src={UT} alt="UT" width="100" height="60"></img>
 				</div>
 
-				<div>
+				{/* <div>
 					<i class="fa fa-phone"></i>
 					<p>+1.555.555.5555</p>
-				</div>
+				</div> */}
 
-				<div>
+				{/* <div>
 					<i class="fa fa-envelope"></i>
 					<p><a href="mailto:support@company.com">support@company.com</a></p>
-				</div>
+				</div> */}
 
 			</div>
 
 			<div class="footer-right">
 
-				<p class="footer-company-about">
-					<span>About the company</span>
-					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				<p class="blackText">
+					<span></span>
+					Sidoplasma is the use of media in the form of a website that is integrated with auto messages is used to collect data on prospective COVID-19 convalescent plasma donors by various health facilities and can be accessed by Indonesian Red Cross Society(PMI).
 				</p>
 
 				<div class="footer-icons">
 
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a>
+					<div>
+						<i class="fa fa-map-marker"></i>
+						<h6><span><strong>Contact Us</strong></span></h6>
+						<img src={Gmail} alt="Gmail" width="60" height="30"></img>
+					</div>
 
 				</div>
 
