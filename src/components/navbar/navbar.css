@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/mayflower-antique');    
+
+@font-face { font-family: "mayflower"; src: url('http://fonts.cdnfonts.com/css/mayflower-antique'); }
 .uwu {
-    background-color: rgb(255, 208, 0);
+    background-color: #fce786;
 }
 
 .imagelogo {
@@ -16,7 +20,13 @@
     margin-left: 3rem
 }
 
+
 .textnavbar{
-    color:black 
+    color:black;
+    font-family: 'mayflower' 
 } 
-/* fiz ini gabisa di recolor black :( */
+
+.SignIn{
+    margin-right: 3rem;
+    font-family: 'mayflower'
+}

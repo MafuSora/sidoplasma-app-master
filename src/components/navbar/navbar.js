@@ -18,8 +18,11 @@ const Navibar = () => {
       <Navbar.Collapse id="basic-navbar-nav">
           
         <Nav className="me-auto ">
-          <Nav.Link href="/" className = "textnavbar">Home</Nav.Link>
-          
+          <a href="/" className = "textnavbar">About Us</a>
+          <a href="/" className = "textnavbar">PMI</a>
+          <a href="/" className = "textnavbar">Fasilitas Kesehatan</a>
+        
+        {/* FIZ INI GABISA DI SPACE :( */}
           
           
         </Nav>
@@ -32,11 +35,11 @@ const Navibar = () => {
                   aria-label="Search"
                   
                 /> */}
-                {/* <div class = "button">
+                <div class = "button">
                   <Button variant="outline-danger" className="SignIn" >Sign In </Button>
-                  <Button variant="outline-danger" size = "sm">Sign Up </Button>
-                </div> */}
-                <div class="navbar-collapse collapse" id="mobile_menu">
+                  {/* <Button variant="outline-danger" className="SignIn" size = "sm">Sign Up </Button> */}
+                </div>
+                {/* <div class="navbar-collapse collapse" id="mobile_menu">
                   <ul class="nav navbar-nav navbar-right">
                   <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> Login / Sign Up <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -46,7 +49,7 @@ const Navibar = () => {
                   </li>
 
                   </ul>
-                </div>
+                </div> */}
           </Form>
         </div>
        

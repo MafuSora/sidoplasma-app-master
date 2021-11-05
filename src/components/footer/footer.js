@@ -15,7 +15,7 @@ const Footer = () => {
 				<img src={Sidoplasma} alt="sidoplasma" width="210" height="50"></img>
 
 				<p class="footer-links">
-					<a href="#" class="link-1" >Home</a>
+					<a href="#" class="link-1" color="black" >Home</a>
 					
 					<a href="#">SignIn</a>
 				

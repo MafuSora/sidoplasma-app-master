@@ -1,17 +1,18 @@
 
 import './login.css'
-// import sido from '../img/Sidoplasma.png';
+import Sidoplasma from '../img/LOGO SIDOPLASMA.png';
 
 const Login=()=>{
     
     return(
     <div id="loginform">
-        <h2 id="headerTitle" classname= "fontlogin">L O G I N</h2>
+        <img src={Sidoplasma} alt="sidoplasma" width="100" height="25" className="logo"></img> 
+        <h2 id="headerTitle" classname= "fontlogin">SIGN IN</h2>
           
         <div>
             <FormInput description="Username" placeholder="Enter your username" type="text" />
             <FormInput description="Password" placeholder="Enter your password" type="password"/>
-            <FormButton title="Log in"/>
+            <FormButton title="Sign In"/>
         </div>
     </div>
     
