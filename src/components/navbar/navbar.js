@@ -11,16 +11,19 @@ const Navibar = () => {
     
  
     <Navbar className="uwu" variant="dark" expand="lg" sticky="top">
-      <Image className="sidoplasma" src={logo} />;
+      <Image className="sidoplasma" src={logo} />
       <Navbar.Brand href="/" ><Image   src="" className="imagelogo m-1" fluid ></Image></Navbar.Brand>
       
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Collapse id="basic-navbar-nav" className="m-2 p-2">
           
         <Nav className="me-auto ">
-          <a href="/" className = "textnavbar">About Us</a>
-          <a href="/" className = "textnavbar">PMI</a>
-          <a href="/" className = "textnavbar">Fasilitas Kesehatan</a>
+          {/* <a href="/"  className = "nav-link active m-2 navbar-dark">About Us</a>
+          <a href="/" className = "nav-link active m-2" >PMI</a>
+          <a href="/" className = "nav-link active m-2">Fasilitas Kesehatan</a> */}
+          <a href="/" className = "textnavbar p-2">About Us</a>
+          <a href="/" className = "textnavbar p-2">PMI</a>
+          <a href="/" className = "textnavbar p-2">Fasilitas Kesehatan</a>
         
         {/* FIZ INI GABISA DI SPACE :( */}
           
@@ -61,3 +64,4 @@ const Navibar = () => {
 };
 
 export default Navibar;
+

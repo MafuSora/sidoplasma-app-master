@@ -196,3 +196,19 @@ section {
 	}
 
 }
+
+.logos{
+	/* width: 20%; */
+	/* height:auto; */
+	align-content: center;
+	text-align: center;
+	margin-left: 1.2em;
+	margin-right: 1.2em;
+}
+.blackText{
+text-align: justify;
+}
+.textblack{
+	color:black;
+
+}

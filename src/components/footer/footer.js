@@ -31,11 +31,18 @@ const Footer = () => {
 			<div class="footer-center">
 
 				<div>
-					<i class="fa fa-map-marker"></i>
-					<h6><span><strong>Created By</strong></span></h6>
-					<img src={logo} alt="UB" width="40" height="40"></img>
-					<h6><span><strong>Supported By</strong></span></h6>
-					<img src={UT} alt="UT" width="100" height="60"></img>
+					<p class="footer-links">
+						<a href="#" class="link-1" color="black" ><strong>Created By</strong></a>
+						
+						<a href="#"className="link-primary"><strong>Supported By</strong></a>
+					
+						<a href="#" className="link-primary"><strong>Contact Us </strong></a>
+						<br/>
+						<img src={logo} alt="UB" width="40" height="40" className="logos"></img>
+						<img src={UT} alt="UT" width="100" height="60" className="logos"></img>
+						<img src={Gmail} alt="Gmail" width="60" height="30" className="logos"></img>
+					</p>
+					
 				</div>
 
 				{/* <div>
@@ -59,11 +66,7 @@ const Footer = () => {
 
 				<div class="footer-icons">
 
-					<div>
-						<i class="fa fa-map-marker"></i>
-						<h6><span><strong>Contact Us</strong></span></h6>
-						<img src={Gmail} alt="Gmail" width="60" height="30"></img>
-					</div>
+					
 
 				</div>
 

@@ -16,7 +16,8 @@ html {
     margin: 100px auto;
     background-color: white;
     border-radius: 25px;
-    box-shadow: 14px 14px 30px #d22d16
+    box-shadow: 14px 14px 30px #d22d16;
+    padding:8px;
 }
 
 #headerTitle {
@@ -132,7 +133,9 @@ html {
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px; 
-    box-shadow: 3px 3px 10px #d22d16
-
+    /* box-shadow: 3px 3px 10px #d22d16; */
+    width : 40%;
+    height: auto;
+    border: 2px;
 } 
 /* gabisa ngasi margin top :( */

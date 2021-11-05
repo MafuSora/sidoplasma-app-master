@@ -4,7 +4,8 @@ import Footer from './components/footer/footer';
 import React from 'react';
 import Login from './components/login/login';
 import Navbar from './components/navbar/navbar';
-import Menu1 from './components/PMI/PMI_Menu _1'
+import Menu1 from './components/PMI/PMI_Menu _1';
+import {Menu2} from './components/PMI_Form/form1';
 import { BrowserRouter as Router, Route, Redirect,Switch } from 'react-router-dom';
 
 
@@ -27,6 +28,9 @@ function App() {
                 </Route>
                 <Route path="/berita">
                   
+                </Route>
+                <Route path="/gerbong2">
+                  <Menu2/>
                 </Route>
                 <Redirect to="/"/>
               </Switch>

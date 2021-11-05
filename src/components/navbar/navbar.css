@@ -2,6 +2,7 @@
 @import url('http://fonts.cdnfonts.com/css/mayflower-antique');    
 
 @font-face { font-family: "mayflower"; src: url('http://fonts.cdnfonts.com/css/mayflower-antique'); }
+@font-face { font-family: "open sans"; src: url('https://fonts.googleapis.com/css?family=Open Sans'); }
 .uwu {
     background-color: #fce786;
 }
@@ -23,10 +24,14 @@
 
 .textnavbar{
     color:black;
-    font-family: 'mayflower' 
+    font-family: 'open sans' 
 } 
 
 .SignIn{
     margin-right: 3rem;
     font-family: 'mayflower'
+}
+
+.textblack{
+    color: black;
 }
