@@ -6,6 +6,8 @@ import Login from './components/login/login';
 import Navbar from './components/navbar/navbar';
 import Menu1 from './components/PMI/PMI_Menu _1';
 import {Menu2} from './components/PMI_Form/form1';
+import Menu3 from './components/PMI/PMI_Main_Menu'
+import Menu4 from './components/Faskes/Faskes_Main_Menu'
 import { BrowserRouter as Router, Route, Redirect,Switch } from 'react-router-dom';
 
 
@@ -31,6 +33,12 @@ function App() {
                 </Route>
                 <Route path="/gerbong2">
                   <Menu2/>
+                </Route>
+                <Route path="/menu1">
+                  <Menu1/>
+                </Route>
+                <Route path="/menu2">
+                <Menu2/>
                 </Route>
                 <Redirect to="/"/>
               </Switch>
